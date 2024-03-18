@@ -1,0 +1,45 @@
+2. Explain the role of the following key properties in the flexbox layout model
+	1. justify-content
+	2. align-items
+	3. gap
+	4. flex-direction
+	5. flex-wrap
+
+Ans: -	
+	1. justify-content: This property aligns flex items along the main axis of the flex container. It controls the distribution of space between and around flex 			items along the main axis.
+
+		Possible values include:
+		- flex-start: Items are packed toward the start of the main axis.
+		- flex-end: Items are packed toward the end of the main axis.
+		- center: Items are centered along the main axis.
+		- pace-between: Items are evenly distributed along the main axis; first item is at the start, last item is at the end.
+		- space-around: Items are evenly distributed along the main axis with equal space around them.
+		- space-evenly: Items are evenly distributed along the main axis with equal space around them, including before the first and after the last item.
+
+	2. align-items: This property aligns flex items along the cross axis of the flex container. It controls how flex items are aligned in the flex container when 			there is extra space in the cross axis.
+
+		Possible values include:
+		- flex-start	: Items are aligned at the start of the cross axis.
+		- flex-end	: Items are aligned at the end of the cross axis.
+		- center	: Items are centered along the cross axis.
+		- baseline	: Items are aligned such that their baselines align.
+		- stretch	: Items are stretched to fill the container along the cross axis.
+
+	3. gap: This property sets the spacing between flex items. It applies both horizontally and vertically if the container is a grid container or a flex container 		whose flex-direction is row or row-reverse. It's shorthand for row-gap and column-gap properties in grid layouts. Gap values can be specified using 		length units like pixels, ems, rems, percentages, or even using the keywords normal or unset.
+
+	4. flex-direction: This property establishes the main axis of the flex container and defines the direction in which flex items are placed in the flex 			container. It affects the direction in which flex items flow inside the flex container.
+
+		Possible values include:
+		- row		: Flex items are placed in a horizontal row, starting from the left and flowing towards the right.
+		- row-reverse	: Flex items are placed in a horizontal row, starting from the right and flowing towards the left.
+		- column	: Flex items are placed in a vertical column, starting from the top and flowing downwards.
+		- column-reverse: Flex items are placed in a vertical column, starting from the bottom and flowing upwards.
+
+	5. flex-wrap: This property controls whether flex items are forced onto a single line or can wrap onto multiple lines within the flex container. It affects how 		flex items behave when there's not enough space along the main axis to fit them all on one line.
+
+		Possible values include:
+		- nowrap	: Flex items are forced onto a single line.
+		- wrap		: Flex items are allowed to wrap onto multiple lines if necessary.
+		- wrap-reverse	: Flex items wrap onto multiple lines in the reverse order.
+
+	These properties provide powerful tools for creating flexible and responsive layouts using the flexbox model. They allow developers to precisely control the 	positioning, alignment, and spacing of flex items within flex containers.

@@ -1,0 +1,33 @@
+Q1. Describe the main difference between the CSS flexbox layout model and the CSS Grid layout model. When would you choose to use one over the other?
+
+Ans.:- The main difference between the CSS flexbox layout model and the CSS Grid layout model lies in their approach to laying out elements on a webpage.
+
+	Flexbox Layout Model:
+
+	- Flexbox is designed for one-dimensional layouts, either in a row or a column.
+	- It allows for flexible arrangement of elements within a container, enabling them to grow or shrink to fill available space.
+	- Flexbox is ideal for arranging items within a single row or column, like navigation menus, sidebars, or distributing space between items evenly.
+	- It's particularly suited for layouts where the alignment and order of elements are crucial, such as in navigation bars or forms.
+
+	Grid Layout Model:
+
+	- CSS Grid is designed for two-dimensional layouts, enabling both rows and columns to be defined explicitly.
+	- It provides precise control over the placement and sizing of elements within a grid container.
+	- Grid is well-suited for complex layouts where elements need to be positioned in both rows and columns, such as in a magazine-style layout or a dashboard.
+	-It allows for alignment and spacing to be set independently along both axes, making it highly flexible for various design requirements.
+
+	When to Use Each:
+
+	Use Flexbox when:
+
+	- You're dealing with a one-dimensional layout (either a row or a column).
+	- You need flexibility in how items are arranged and sized within a container.
+	- You want to control the alignment and order of items along a single axis.
+
+	Use Grid when:
+
+	- You need a two-dimensional layout (both rows and columns).
+	- You require precise control over the placement and sizing of items within a grid container.
+	- You want to create complex layouts with multiple rows and columns, such as in a grid-based gallery or a dashboard.
+
+	In practice, you may often find that a combination of both Flexbox and Grid is used within a single webpage to achieve different layout requirements. For 	instance, you might use Flexbox for arranging items within a navigation bar and Grid for creating a multi-column layout for the main content area.
